@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - chuckpr
 dependencies:
+  - python = 3.9
   - r-tidymodels
   - r-tidyverse
   - r-irkernel
@@ -13,6 +14,8 @@ dependencies:
   - patsy
   - pyarrow
   - plotnine
+  - statsmodels
+  - altair
   - ipykernel
   - pip
   - pip:
